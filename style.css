@@ -1,42 +1,17 @@
 body{
-    background-color: aquamarine;
+    background-color: rgb(178, 246, 223);
+    font-family: 'Arial', sans-serif;
     margin: 0px;
     padding: 0px;
-    font-family: 'Arial', sans-serif;
-
 }
 
+.container{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
 .navbar{
     display: flex;
     align-items: center;
-    text-align: left;
-    justify-self: center;
-    font-size: 20px;
-    padding: 4px 379px;
-    width: fit-content;
-    background-color: antiquewhite;
-    margin-top: 30px;
-}
-
-#bar-shop{
-    justify-self: left;
-    padding-left: -20px;
-    font-weight: bolder;
-    padding-left: 0px;
-}
-#bar-page1{
-    padding: 8px 12px;
-    font-size: 16px;
-    /* padding: 8px 30px; */
-}
-
-#bar-page2{
-    padding: 8px 12px;
-    font-size: 16px;
-    /* padding: 8px 30px; */
-}
-#bar-page3{
-    padding: 8px 12px;
-    font-size: 16px;
-    /* padding: 8px 30px; */
+    background-color: azure;
 }
