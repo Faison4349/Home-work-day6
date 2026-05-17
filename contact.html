@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact - My Shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>ติดต่อเรา</h1>
+  <nav>
+    <a href="index.html">หน้าแรก</a>
+    <a href="products.html">สินค้า</a>
+    <a href="cart.html">ตะกร้า</a>
+    <a href="about.html">เกี่ยวกับเรา</a>
+    <a href="contact.html">ติดต่อ</a>
+  </nav>
+</header>
+
+<section>
+  <h2>ส่งข้อความถึงเรา</h2>
+
+  <form onsubmit="sendContact(event)">
+    <input type="text" id="name" placeholder="ชื่อของคุณ" required>
+    <input type="email" id="email" placeholder="อีเมล" required>
+    <textarea id="message" placeholder="ข้อความ" required></textarea>
+    <button type="submit">ส่งข้อความ</button>
+  </form>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

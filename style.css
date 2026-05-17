@@ -1,28 +1,85 @@
-
-.costom-navbar{
-    background: #3b5d50 !important;
-    padding-top: 20px;
-    padding-bottom: 20px;
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #333;
 }
 
-.container{
-    display: flex;
-    flex-wrap: inherit;
-    align-items: center;
-    justify-content: space-between;
+header {
+  background: #222;
+  color: white;
+  padding: 20px;
+  text-align: center;
 }
 
-.custom-navbar .navbar-brand{
-    font-size: 32px;
-    font-weight: 600;
+nav {
+  margin-top: 15px;
 }
-.navbar-dark .navbar-brand{
-    color: #fff;
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  padding: 8px 12px;
+  background: #444;
+  border-radius: 5px;
 }
-.navbar-brand{
-    padding-top: .3125rem;
-    padding-bottom: 1rem;
-    font-size: 1.25rem;
-    text-decoration: none;
-    white-space: nowrap;
+
+nav a:hover {
+  background: orange;
+  color: black;
+}
+
+section {
+  padding: 30px;
+  text-align: center;
+}
+
+.hero {
+  background: white;
+  margin: 30px;
+  border-radius: 10px;
+  padding: 50px;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  width: 200px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+button {
+  background: orange;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: darkorange;
+}
+
+input, textarea {
+  display: block;
+  width: 300px;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+textarea {
+  height: 100px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
 }
